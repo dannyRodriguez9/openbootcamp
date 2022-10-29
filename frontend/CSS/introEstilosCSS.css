@@ -1,0 +1,48 @@
+
+.colores{
+    color: red;
+}
+
+.color-hexadecimal{
+    color: #84DCC6; 
+}
+
+.color-rgb{
+    color: rgb(100, 0, 2); /*Combinacion de colores*/
+}
+
+.color-rgba{
+    color: rgba(12,0,12,0.8); /*El ultimo valor representa la opacidad entre 0 y 1*/
+}
+
+.fondo{
+    background-color: aqua;
+    background-image: url("https://www.tuningblog.eu/wp-content/uploads/2020/04/2020-NOVITEC-McLaren-Senna-Tuning-Header.jpg");
+    background-position: center center;
+}
+
+.fondo-interno{
+    background-color: aqua;
+    background-image: url("../img/Senna-Hero1920x1080\ crop-16x9.webp");
+    background-position: center center;
+}
+
+.ancho{
+    width: 100px; /*ancho*/
+    background-color: greenyellow;
+}
+
+.alto{
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: rgb(150,150,150);
+    border-width: 1px;
+    /*border-top: none;*/
+    margin: 10px 20px;
+    padding: 10px 20px; /*10px arriba y abajo, 20px derecha y izquierda, padding es el espacio interno  */ 
+    /*padding: 10px 20px 30px 40px; /*arriba derecha abajo izquierda  */
+}

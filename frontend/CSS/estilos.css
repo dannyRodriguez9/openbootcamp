@@ -1,0 +1,28 @@
+
+h1{
+    color:red;
+}
+
+p{
+    color: blue;
+}
+
+#noticia1{
+    color: green;
+    font-size: 12px;
+}
+
+#noticia2
+{
+    color: darkmagenta;
+    font-size: 12px;
+}
+
+*.warning{
+    color: red;  
+}
+
+.autor, .fecha, .ubicacion
+{
+    text-decoration: underline;
+}
